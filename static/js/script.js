@@ -109,7 +109,7 @@ async function adicionarCompetidor() {
       const competidor_adicionado = await response_competidor.json();
       console.log(competidor_adicionado);
       alert("Competidor adicionado com sucesso!")
-      window.location.href = "cadastro.html";
+      window.location.href = "cadastro";
     } else {
       console.error("Erro ao adicionar o competidor à API.");
     }
