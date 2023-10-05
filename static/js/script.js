@@ -55,7 +55,7 @@ async function get_ranking_tabela() {
 
       detalhar_competidor = `
                                 <a 
-                                    class = "btn btn-outline-success" 
+                                    class = "btn btn-outline-primary" 
                                     onclick = "alterarModalCompetidor('${competidor._id}')" 
                                     data-bs-toggle = "modal" 
                                     data-bs-target = "#exampleModalCenter">
@@ -64,11 +64,11 @@ async function get_ranking_tabela() {
                                 `;
 
       competidor_nome = `<h6 class="mt-2">${competidor.nome}</h6>`;
-      competidor_email = `<h6 class="mt-2">${competidor.email}</h6>`;
+      competidor_telefone = `<h6 class="mt-2">${competidor.telefone}</h6>`;
       competidor_tempo = `<h6 class="mt-2">${competidor.tempo}</h6>`;
 
 
-      table.row.add([detalhar_competidor, competidor_nome, competidor_email, competidor_tempo]).draw();
+      table.row.add([detalhar_competidor, competidor_nome, competidor_telefone, competidor_tempo]).draw();
       
     });
   } catch (error) {
