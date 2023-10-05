@@ -11,10 +11,10 @@ competidores_routes = Blueprint('competidores_routes', __name__)
 # )
     
 conexao = pymongo.MongoClient(
-    host = 'containers-us-west-185.railway.app',
-    port = 5843,
+    host = 'containers-us-west-63.railway.app',
+    port = 6417,
     username = "mongo",
-    password = "qhtWTf8HdsKADXXNMsOl"
+    password = "n6h2xR9ZESCifjS3N3v1"
 )
 
 # class Competidor(MethodView):
