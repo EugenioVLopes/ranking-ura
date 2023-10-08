@@ -20,7 +20,7 @@ conexao = pymongo.MongoClient(
 # class Competidor(MethodView):
 
 db = conexao.get_database('ranking_ura')
-collection_competidores = db.get_collection('ura_competidores')
+collection_competidores = db.get_collection('ura_competidores_dia2')
 
 @competidores_routes.route('/api/competidor/add', methods = ['POST'])
 def adicionar_competidor():

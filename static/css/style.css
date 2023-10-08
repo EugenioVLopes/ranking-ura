@@ -85,7 +85,7 @@ header {
   justify-content: center;
   text-align: center;
   gap: 0.1rem;
-  margin: min(30%, 7rem);
+  margin: min(33%, 7rem);
 }
 
 .main li img {
@@ -198,7 +198,7 @@ section li span:last-child {
   font-size: 1.25rem;
   font-weight: bold;
   color: #03b169;
-  width: min(30%, 20rem);
+  width: min(33%, 20rem);
 }
 
 @media (max-width: 900px) {
@@ -225,7 +225,7 @@ section li span:last-child {
 
   .main li {
     gap: 0.1rem;
-    margin: min(30%, 3.5rem);
+    margin: min(33%, 3.5rem);
   }
 
   .main li img {
