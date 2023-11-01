@@ -11,16 +11,16 @@ competidores_routes = Blueprint('competidores_routes', __name__)
 # )
     
 conexao = pymongo.MongoClient(
-    host = 'containers-us-west-63.railway.app',
-    port = 6417,
+    host = 'roundhouse.proxy.rlwy.net',
+    port = 54213,
     username = "mongo",
-    password = "n6h2xR9ZESCifjS3N3v1"
+    password = "C4HA3bGbgbGg4BbHa5G6Ff3AaH5AgfBC"
 )
 
 # class Competidor(MethodView):
 
 db = conexao.get_database('ranking_ura')
-collection_competidores = db.get_collection('ura_competidores_dia2')
+collection_competidores = db.get_collection('ura_competidores_dia1')
 
 @competidores_routes.route('/api/competidor/add', methods = ['POST'])
 def adicionar_competidor():
