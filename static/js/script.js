@@ -1,5 +1,5 @@
 // var url_base = "http://127.0.0.1:3000"
-var url_base = "https://uranaggcon23.onrender.com/"
+var url_base = "https://uraranking.onrender.com/"
 
 const names = document.querySelectorAll("[data-name]");
 const value = document.querySelectorAll("[data-time]");
