@@ -12,9 +12,9 @@ competidores_routes = Blueprint('competidores_routes', __name__)
     
 conexao = pymongo.MongoClient(
     host = 'roundhouse.proxy.rlwy.net',
-    port = 54213,
+    port = 58063,
     username = "mongo",
-    password = "C4HA3bGbgbGg4BbHa5G6Ff3AaH5AgfBC"
+    password = "D4feedCbc6CG6AdF4hgd-6E--aD3cD-e"
 )
 
 # class Competidor(MethodView):

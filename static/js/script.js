@@ -1,5 +1,5 @@
 // var url_base = "http://127.0.0.1:3000"
-var url_base = "https://uraranking.onrender.com/"
+var url_base = "https://uranaggcon.onrender.com/"
 
 const names = document.querySelectorAll("[data-name]");
 const value = document.querySelectorAll("[data-time]");
@@ -223,11 +223,9 @@ function view_novo_tempo(){
 }
 const miliseg = document.querySelector('.milissegundos')
 const seg = document.querySelector('.segundos')
-const min = document.querySelector('.minutos')
 
 let miliNum = 0
 let segNum = 0
-let minNum = 0
 let INTERVALO
 
 function milissegundos() {
@@ -252,20 +250,8 @@ function segundos() {
     seg.innerHTML = segNum
   }
 
-  if (segNum == 59) {
-    segNum = 0
-    minutos()
-  }
 }
 
-function minutos() {
-  minNum++
-  if (minNum < 10) {
-    min.innerHTML = '0' + minNum
-  } else {
-    min.innerHTML = minNum
-  }
-}
 
 function iniciar() {
   clearInterval(INTERVALO)
@@ -285,5 +271,4 @@ function resetar() {
   minNum = 0
   miliseg.innerHTML = '00'
   seg.innerHTML = '00'
-  min.innerHTML = '00'
 }
