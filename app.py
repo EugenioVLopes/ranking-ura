@@ -23,6 +23,9 @@ def cadastro():
     return render_template("cadastro.html")
 @app.route("/cadastrovalidado")
 def logintela():
+    """
+    Função que renderiza a página "cadastrovalidado.html" após o cadastro ser validado.
+    """
     return render_template("cadastrovalidado.html")
 
 # Registrar as blueprints (rotas) no app

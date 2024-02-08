@@ -24,6 +24,14 @@ collection_competidores = db.get_collection('ura_competidores_dia1')
 
 @competidores_routes.route('/api/competidor/add', methods = ['POST'])
 def adicionar_competidor():
+    """
+    Adiciona um competidor à coleção de competidores.
+
+    Recebe os dados do competidor através de uma requisição POST e insere os dados na coleção de competidores.
+
+    Returns:
+        response (flask.Response): A resposta HTTP contendo os dados do competidor adicionado.
+    """
     
     # Receiving Data
     dados_recebidos = request.json

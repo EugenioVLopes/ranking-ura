@@ -11,12 +11,10 @@ O Ranking URA é uma plataforma web desenvolvida em Flask, impulsionada pelo pro
 # FAQ/Perguntas Frequentes
 
 ## Posso gerar meu próprio ranking usando esse repositório?
-> **R:** Sim! Só pedimos que você faça um link para https://rankingura.sh 😁 e respeite a licença de uso.
+> **R:** Sim! Só pedimos que você respeite a licença de uso.😁
 
 ## Posso sugerir novas features?
 > **R:** Sim! Use o mecanismo de contribuição do Github. Nesse momento estamos focados em corrigir erros e melhorar as carreiras existentes.
-
-# About the Project/Sobre o Projeto
 
 ## Contributing/Contribuir
 
@@ -24,9 +22,6 @@ O Ranking URA é uma plataforma web desenvolvida em Flask, impulsionada pelo pro
 - Esse é um projeto opensource feito pela NatalNet para a comunidade e contribuições são bem vindas.
 - Para aumentar a chance de a sua contribuição ser aprovada, escolha um título legal, simples e explicativo para os itens, e siga a formatação correta dos arquivos.
 - 🇧🇷: Quer contribuir com o projeto? [Confira o passo a passo](./CONTRIBUTING.md)
-
-## History/Histórico
-- 🇧🇷: Da uma olhada na aba [Releases]("") pra acompanhar as alterações feitas no projeto.
 
 ## License/Licença do Projeto
 
